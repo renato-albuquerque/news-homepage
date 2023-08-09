@@ -33,5 +33,27 @@ body {
     font-family: var(--inter);
 }
 
+/* Project focus: apply the knowledge with CSS GRID. Done only for desktop screen. */
 
+.container {
+    margin: 5rem auto;
+    width: 1100px;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapMenu {
+    display: flex;
+    gap: 4rem;
+}
+
+.itemMenu {
+    color: var(--dark-grayish-blue);
+}
 
