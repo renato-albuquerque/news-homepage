@@ -37,7 +37,7 @@ body {
 
 .container {
     margin: 5rem auto;
-    width: 1100px;
+    width: 100rem;  /* adapted. */
 }
 
 /* header */
@@ -55,5 +55,78 @@ body {
 
 .itemMenu {
     color: var(--dark-grayish-blue);
+}
+
+/* main */
+
+.imageWeb3 {
+    width: 72rem;
+}
+
+.firstSection {
+    margin: 5rem auto;
+    display: grid;
+    grid-template-areas: 
+    "firstSection-1 firstSection-1 firstSection-4"
+    "firstSection-2 firstSection-3 firstSection-4";
+    gap: 3rem;
+}
+
+#firstSection-1 {
+    grid-area: firstSection-1;
+    background-image: url(files/assets/images/image-web-3-desktop.jpg);
+    background-size: cover;
+    height: 30vh;
+}
+
+#firstSection-2 {
+    grid-area: firstSection-2;
+    font-size: 3.7rem;
+    font-weight: 800;
+    line-height: 5rem;
+}
+
+#firstSection-3 {
+    grid-area: firstSection-3;
+    display: grid;
+    color: var(--dark-grayish-blue);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.buttonSection-3 {
+    width: 50%;
+    padding: 0.1rem;
+    background-color: var(--soft-red);
+    color: var(--off-white);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#firstSection-4 {
+    grid-area: firstSection-4;
+    display: grid;
+    background-color: var(--very-dark-blue);
+    padding: 2rem;
+}
+
+.titleSection-4 {
+    color: var(--soft-orange);
+}
+
+.subtitleSection-4 {
+    color: var(--off-white);
+    text-align: justify;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+}
+
+.textSection-4 {
+    color: var(--dark-grayish-blue);
+    border-bottom: 0.5px solid var(--dark-grayish-blue);
+    line-height: 2.5rem;
+    text-align: justify;    
 }
 
