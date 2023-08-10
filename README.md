@@ -2,7 +2,7 @@
 
 This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-The focus of this project was to apply/understand GRID concepts in CSS. Project made for a 1000px screen.
+The focus of this project was to apply/understand GRID concepts in CSS. Project made for a 1000px screen. Some CSS GRID properties applied in the project: grid-template-columns, grid-template-areas, grid-area.
 
 ## Table of contents
 
