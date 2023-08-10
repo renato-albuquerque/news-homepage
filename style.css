@@ -66,6 +66,7 @@ body {
 .firstSection {
     margin: 5rem auto;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
     "firstSection-1 firstSection-1 firstSection-4"
     "firstSection-2 firstSection-3 firstSection-4";
@@ -90,7 +91,7 @@ body {
     grid-area: firstSection-3;
     display: grid;
     color: var(--dark-grayish-blue);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 2rem;
     text-align: justify;
 }
@@ -114,19 +115,28 @@ body {
 
 .titleSection-4 {
     color: var(--soft-orange);
+    font-size: 3rem;
 }
 
 .subtitleSection-4 {
     color: var(--off-white);
+    font-size: 1.6rem;
     text-align: justify;
-    margin-top: 2rem;
-    margin-bottom: -1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .textSection-4 {
     color: var(--dark-grayish-blue);
-    border-bottom: 0.5px solid var(--dark-grayish-blue);
+    font-size: 1.4rem;
     line-height: 2.5rem;
-    text-align: justify;    
+    text-align: justify;     
 }
 
+#firstSection-4 p:nth-child(3) {   
+    border-bottom: 0.5px solid var(--dark-grayish-blue);
+}
+
+#firstSection-4 p:nth-child(5) {   
+    border-bottom: 0.5px solid var(--dark-grayish-blue);
+}
