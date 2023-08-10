@@ -57,14 +57,14 @@ body {
     color: var(--dark-grayish-blue);
 }
 
-/* main */
+/* main, first section */
 
 .imageWeb3 {
     width: 72rem;
 }
 
 .firstSection {
-    margin: 5rem auto;
+    margin: 5rem auto 7rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
@@ -139,4 +139,45 @@ body {
 
 #firstSection-4 p:nth-child(5) {   
     border-bottom: 0.5px solid var(--dark-grayish-blue);
+}
+
+/* main, second section */
+
+.secondSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapImageInfoSecondSection {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.imageSecondSection {
+    width: 10rem;
+}
+
+.wrapInfoSecondSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    width: 20rem;
+}
+
+.titleSecondSection {
+    color: var(--grayish-blue);
+    font-size: 3rem;
+}
+
+.subtitleSecondSection {
+    font-size: 1.6rem;
+    /* margin: 1rem auto; */
+}
+
+.textSecondSection {
+    color: var(--dark-grayish-blue);
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    text-align: justify;
 }
