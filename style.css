@@ -55,6 +55,13 @@ body {
 
 .itemMenu {
     color: var(--dark-grayish-blue);
+    cursor: pointer;
+}
+
+.itemMenu:hover {
+    color: var(--soft-red);
+    font-weight: 700;
+    transition: all .3s;
 }
 
 /* main, first section */
@@ -106,6 +113,12 @@ body {
     letter-spacing: 3px;
 }
 
+.buttonSection-3:hover {
+    background-color: var(--very-dark-blue);
+    transition: all .3s;
+    cursor: pointer;
+}
+
 #firstSection-4 {
     grid-area: firstSection-4;
     display: grid;
@@ -124,6 +137,12 @@ body {
     text-align: justify;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+}
+
+.subtitleSection-4:hover {
+    color: var(--soft-orange);
+    transition: all .3s;
+    cursor: pointer;
 }
 
 .textSection-4 {
@@ -173,6 +192,12 @@ body {
 
 .subtitleSecondSection {
     font-size: 1.6rem;
+}
+
+.subtitleSecondSection:hover {
+    color: var(--soft-red);
+    transition: all .3s;
+    cursor: pointer;
 }
 
 .textSecondSection {
