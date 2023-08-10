@@ -146,6 +146,7 @@ body {
 .secondSection {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 7rem;
 }
 
 .wrapImageInfoSecondSection {
@@ -172,7 +173,6 @@ body {
 
 .subtitleSecondSection {
     font-size: 1.6rem;
-    /* margin: 1rem auto; */
 }
 
 .textSecondSection {
@@ -180,4 +180,25 @@ body {
     font-size: 1.4rem;
     line-height: 2.5rem;
     text-align: justify;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.footer-p {
+    color: var(--dark-grayish-blue);
+}
+
+.footer-a {
+    color: var(--very-dark-blue);
+}
+
+.footer-a:hover {
+    color: var(--soft-red);
+    transition: all .3s;
 }
